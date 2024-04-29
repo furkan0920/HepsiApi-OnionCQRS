@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Hepsi.Domain.Entities
 {
-    public class Category:EntityBase
+    public class Category : EntityBase
     {//requried:Nesen oluşturduğumuzda en başta doldurmamız gerek
         public Category()
         {
-                
+
         }
 
         public Category(int parentId, string name, int priorty)
@@ -21,9 +21,9 @@ namespace Hepsi.Domain.Entities
             Name = name;
             Priorty = priorty;
         }
-        public required int ParentId { get; set; }
-        public required string Name { get; set; }    
-        public required int Priorty { get; set; }
+        public int ParentId { get; set; }
+        public string Name { get; set; }
+        public int Priorty { get; set; }
         public ICollection<Detail> Details { get; set; }
         public ICollection<Product> Products { get; set; }
     }
