@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Insfrastructure", "Insfrast
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{131E325C-A3DE-4296-BF05-2AB68E023E7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Application", "Core\Hepsi.Application\Hepsi.Application.csproj", "{AAF2199F-0D85-466A-B0FD-A06A478AD5EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsi.Application", "Core\Hepsi.Application\Hepsi.Application.csproj", "{AAF2199F-0D85-466A-B0FD-A06A478AD5EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Domain", "Core\Hepsi.Domain\Hepsi.Domain.csproj", "{FE64C9F0-0EE8-410B-AC9A-3145C9711C84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsi.Domain", "Core\Hepsi.Domain\Hepsi.Domain.csproj", "{FE64C9F0-0EE8-410B-AC9A-3145C9711C84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Insfrastructure", "Insfrastructure\Hepsi.Insfrastructure\Hepsi.Insfrastructure.csproj", "{2C5BCFF5-5B27-4074-BAEE-77022416ED28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsi.Insfrastructure", "Insfrastructure\Hepsi.Insfrastructure\Hepsi.Insfrastructure.csproj", "{2C5BCFF5-5B27-4074-BAEE-77022416ED28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Persistence", "Insfrastructure\Hepsi.Persistence\Hepsi.Persistence.csproj", "{80126914-29D6-41F9-946A-C9329F64076E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsi.Persistence", "Insfrastructure\Hepsi.Persistence\Hepsi.Persistence.csproj", "{80126914-29D6-41F9-946A-C9329F64076E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Api", "Presentation\HepsiApi.Api\HepsiApi.Api.csproj", "{496BE604-CA59-4CD3-8DB0-66F343B549BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiApi.Api", "Presentation\HepsiApi.Api\HepsiApi.Api.csproj", "{496BE604-CA59-4CD3-8DB0-66F343B549BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
