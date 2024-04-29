@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\Hepsi.Mapper\Hepsi.Mapper.csproj" />
     <ProjectReference Include="..\..\Insfrastructure\Hepsi.Persistence\Hepsi.Persistence.csproj" />
   </ItemGroup>
 

@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsi.Persistence", "Insfra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HepsiApi.Api", "Presentation\HepsiApi.Api\HepsiApi.Api.csproj", "{496BE604-CA59-4CD3-8DB0-66F343B549BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hepsi.Mapper", "Core\Hepsi.Mapper\Hepsi.Mapper.csproj", "{880425AE-71AA-4262-8FF1-4F91FB779F72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{496BE604-CA59-4CD3-8DB0-66F343B549BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{496BE604-CA59-4CD3-8DB0-66F343B549BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{496BE604-CA59-4CD3-8DB0-66F343B549BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880425AE-71AA-4262-8FF1-4F91FB779F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880425AE-71AA-4262-8FF1-4F91FB779F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880425AE-71AA-4262-8FF1-4F91FB779F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880425AE-71AA-4262-8FF1-4F91FB779F72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{2C5BCFF5-5B27-4074-BAEE-77022416ED28} = {46ACA51A-D4F6-401E-8703-4549E3A40F73}
 		{80126914-29D6-41F9-946A-C9329F64076E} = {46ACA51A-D4F6-401E-8703-4549E3A40F73}
 		{496BE604-CA59-4CD3-8DB0-66F343B549BB} = {9A6B74B0-51DB-483A-B7C2-B0C857AF49AC}
+		{880425AE-71AA-4262-8FF1-4F91FB779F72} = {131E325C-A3DE-4296-BF05-2AB68E023E7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D0C8A67-6A34-4394-AE59-907F4629DD80}
