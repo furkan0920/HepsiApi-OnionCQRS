@@ -1,6 +1,7 @@
 using Hepsi.Persistence;
 using Hepsi.Application;
 using Hepsi.Mapper;
+using Hepsi.Insfrastructure;
 using Hepsi.Application.Exceptions;
 
 
@@ -20,6 +21,7 @@ builder.Configuration
     .AddJsonFile($"appsettings.{env.EnvironmentName}.json",optional:true);
 
 builder.Services.AddPersistence(builder.Configuration);
+builder.Services.AddInsfrastructure(builder.Configuration);
 builder.Services.AddApplication();
 builder.Services.AddCustomMapper();
 
