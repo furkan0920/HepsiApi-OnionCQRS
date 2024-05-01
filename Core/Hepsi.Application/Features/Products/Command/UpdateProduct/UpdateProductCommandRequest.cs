@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Hepsi.Application.Features.Products.Command.UpdateProduct
 {
-    public class UpdateProductCommandRequest:IRequest<Unit>
+    public class UpdateProductCommandRequest : IRequest<Unit>
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -15,6 +15,6 @@ namespace Hepsi.Application.Features.Products.Command.UpdateProduct
         public int BrandId { get; set; }
         public decimal Price { get; set; }
         public decimal Discount { get; set; }
-        public IList<int>CategoryIds { get; set; }
+        public IList<int> CategoryIds { get; set; }
     }
 }

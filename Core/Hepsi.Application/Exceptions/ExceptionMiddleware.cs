@@ -36,8 +36,7 @@ namespace Hepsi.Application.Exceptions
                 }.ToString());
             List<string> errors = new()
             {
-                $"Hata mesaji:{exception.Message}",
-                $"Mesaj Aciklamasi:{exception.InnerException?.ToString()}"
+                $"Hata mesaji:{exception.Message}"
             };
             return httpContext.Response.WriteAsync(new ExceptionModel
             {
