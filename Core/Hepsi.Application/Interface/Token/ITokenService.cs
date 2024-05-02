@@ -13,6 +13,6 @@ namespace Hepsi.Application.Interface.Token
     {
         Task<JwtSecurityToken> CreateToken(User user, IList<string> roles);
         string GenerateRefreshToken();
-        ClaimsPrincipal? GetClaimsPrincipalFromExpiredToken();
+        ClaimsPrincipal? GetClaimsPrincipalFromExpiredToken(string? token);
     }
 }
