@@ -1,5 +1,5 @@
 ﻿using Hepsi.Application.Interface.Repositories;
-using Hepsi.Application.UnitOfWorks;
+using Hepsi.Application.Interface.UnitOfWorks;
 using Hepsi.Persistence.Context;
 using Hepsi.Persistence.Repositories;
 using System;

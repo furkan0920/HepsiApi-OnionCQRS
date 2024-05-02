@@ -1,6 +1,6 @@
 ﻿using Hepsi.Application.DTOs;
 using Hepsi.Application.Interface.AutoMapper;
-using Hepsi.Application.UnitOfWorks;
+using Hepsi.Application.Interface.UnitOfWorks;
 using Hepsi.Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
