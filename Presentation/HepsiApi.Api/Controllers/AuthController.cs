@@ -1,4 +1,5 @@
 ﻿using Hepsi.Application.Features.Auth.Command.Login;
+using Hepsi.Application.Features.Auth.Command.RefreshToken;
 using Hepsi.Application.Features.Auth.Command.Register;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -25,8 +26,14 @@ namespace HepsiApi.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginCommandRequest request)
         {
-            var response=await mediator.Send(request);
-            return StatusCode(StatusCodes.Status201Created,response);
+            var response = await mediator.Send(request);
+            return StatusCode(StatusCodes.Status201Created, response);
+        }
+        [HttpPost]
+        public async Task<IActionResult> RefreshToken(RefreshTokenCommandRequest request)
+        {
+            var response = await mediator.Send(request);
+            return StatusCode(StatusCodes.Status201Created, response);
         }
     }
 }
